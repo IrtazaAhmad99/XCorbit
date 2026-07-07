@@ -60,7 +60,7 @@ export default function Promise() {
             variants={fadeInUp}
             className="text-lg leading-8 text-gray-400"
           >
-            At XCorbitSoft, we believe a successful digital product is more
+            At CloodyKit, we believe a successful digital product is more
             than just attractive design. It should be reliable, scalable, and
             built to support your business as it grows. Every project we
             deliver is crafted with attention to performance, maintainability,

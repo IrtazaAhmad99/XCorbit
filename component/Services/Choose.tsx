@@ -26,7 +26,7 @@ export default function WhyChooseUs() {
             className="mx-auto mb-16 max-w-3xl text-center"
           >
             <p className="font-semibold uppercase tracking-[0.25em] text-cyan-400">
-              Why Choose XCorbitSoft
+              Why Choose CloodyKit
             </p>
 
             <h2 className="mt-4 text-4xl font-bold text-white md:text-5xl">

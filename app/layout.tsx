@@ -5,15 +5,15 @@ import Footer from "../component/Home/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.xcorbitsoft.com"), // Replace after buying your domain
+  metadataBase: new URL("https://www.CloodyKit.com"), // Replace after buying your domain
 
   title: {
-    default: "XCorbitSoft | AI Automation & Web Development Agency",
-    template: "%s | XCorbitSoft",
+    default: "CloodyKit | AI Automation & Web Development Agency",
+    template: "%s | CloodyKit",
   },
 
   description:
-    "XCorbitSoft helps businesses grow with modern websites, AI automation, and digital solutions designed for performance and scalability.",
+    "CloodyKit helps businesses grow with modern websites, AI automation, and digital solutions designed for performance and scalability.",
 
   keywords: [
     "Web Development",
@@ -23,32 +23,32 @@ export const metadata: Metadata = {
     "Business Websites",
     "Software Development",
     "Pakistan",
-    "XCorbitSoft",
+    "CloodyKit",
     "Meta Adds",
     "Sales",
   ],
 
   authors: [
     {
-      name: "XCorbitSoft",
+      name: "CloodyKit",
     },
   ],
 
-  creator: "XCorbitSoft",
+  creator: "CloodyKit",
 
   openGraph: {
-    title: "XCorbitSoft",
+    title: "CloodyKit",
     description:
       "Modern web development and AI automation solutions for businesses.",
     url: "http://localhost:3000",
-    siteName: "XCorbitSoft",
+    siteName: "CloodyKit",
     locale: "en_US",
     type: "website",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "XCorbitSoft",
+    title: "CloodyKit",
     description:
       "Modern web development and AI automation solutions for businesses.",
   },

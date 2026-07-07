@@ -40,7 +40,7 @@ export default function WhyChooseUs() {
             </h2>
 
             <p className="mt-6 text-lg leading-8 text-slate-400">
-              At XCorbitSoft, we don't just develop websites—we create modern,
+              At CloodyKit, we don't just develop websites—we create modern,
               scalable digital solutions that help businesses grow, automate
               processes, and deliver better customer experiences.
             </p>

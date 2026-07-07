@@ -28,7 +28,7 @@ export default function Footer() {
           {/* Company */}
           <div>
             <h2 className="text-3xl font-bold text-white">
-              XCorbit<span className="text-cyan-400">Soft</span>
+              CloodyKit<span className="text-cyan-400">Soft</span>
             </h2>
 
             <p className="mt-6 leading-8 text-slate-400">
@@ -70,7 +70,7 @@ export default function Footer() {
             <div className="mt-6 space-y-5">
               <div className="flex items-center gap-3 text-slate-400">
                 <Mail className="h-5 w-5 text-cyan-400" />
-                xcorbitsoft@gmail.com
+                cloodykit@gmail.com
               </div>
 
               <div className="flex items-center gap-3 text-slate-400">
@@ -96,7 +96,7 @@ export default function Footer() {
 
         <div className="mt-20 flex flex-col items-center justify-between gap-6 border-t border-slate-800 pt-8 md:flex-row">
           <p className="text-sm text-slate-500">
-            © {new Date().getFullYear()} XCorbitSoft. All rights reserved.
+            © {new Date().getFullYear()} cloodykit. All rights reserved.
           </p>
 
           <div className="flex gap-8 text-sm text-slate-500">

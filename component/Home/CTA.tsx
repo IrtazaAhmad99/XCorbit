@@ -52,7 +52,7 @@ export default function CTA() {
           <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-slate-400">
             Whether you need a business website, an AI-powered solution,
             an e-commerce platform, or a custom web application,
-            XCorbitSoft is here to turn your ideas into reality.
+            CloodyKit is here to turn your ideas into reality.
           </p>
 
           {/* Buttons */}

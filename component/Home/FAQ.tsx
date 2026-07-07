@@ -5,7 +5,7 @@ import { ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    question: "What services does XCorbitSoft provide?",
+    question: "What services does cloodykit provide?",
     answer:
       "We specialize in custom web development, AI automation, AI agents, e-commerce solutions, business websites, and digital transformation.",
   },

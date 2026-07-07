@@ -49,11 +49,11 @@ const Navbar = () => {
           className="flex items-center gap-3 transition-transform duration-300 hover:scale-105"
         >
           <div className="w-10 h-10 rounded-xl bg-linear-to-r from-cyan-400 to-purple-500 flex items-center justify-center text-black font-bold">
-            X
+            CK
           </div>
 
           <span className="text-xl font-bold text-white">
-            XCorbitSoft
+            CloodyKit
           </span>
         </Link>
 
