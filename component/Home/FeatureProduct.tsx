@@ -110,14 +110,6 @@ export default function FeaturedProjects() {
                     </span>
                   ))}
                 </div>
-
-                {/* Button */}
-
-                <button className="group mt-10 inline-flex items-center gap-3 rounded-full border border-cyan-500/30 bg-cyan-500/10 px-6 py-3 text-cyan-300 transition hover:bg-cyan-500 hover:text-black">
-                  View Project
-
-                  <ArrowUpRight className="h-5 w-5 transition group-hover:translate-x-1 group-hover:-translate-y-1" />
-                </button>
               </div>
             </div>
           ))}

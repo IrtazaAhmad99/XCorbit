@@ -100,7 +100,6 @@ export default function Services() {
                     <Icon className="h-8 w-8 text-cyan-400" />
                   </div>
 
-                  <ArrowUpRight className="h-6 w-6 text-slate-500 transition-all duration-300 group-hover:text-cyan-400" />
                 </div>
 
                 {/* Content */}
