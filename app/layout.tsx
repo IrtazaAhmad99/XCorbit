@@ -5,7 +5,7 @@ import Footer from "../component/Home/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.CloodyKit.com"), // Replace after buying your domain
+  metadataBase: new URL("https://cloodykit.com"), // Replace after buying your domain
 
   title: {
     default: "CloodyKit | AI Automation & Web Development Agency",
@@ -16,16 +16,23 @@ export const metadata: Metadata = {
     "CloodyKit helps businesses grow with modern websites, AI automation, and digital solutions designed for performance and scalability.",
 
   keywords: [
+    "AI Automation",
     "Web Development",
     "Next.js",
     "React",
-    "AI Automation",
     "Business Websites",
     "Software Development",
-    "Pakistan",
+    "AI Chatbots",
+    "Custom Web Applications",
+    "Digital Solutions",
+    "SEO",
+    "Landing Pages",
+    "Business Automation",
     "CloodyKit",
+    "DashBord",
+    "AI Websites",
     "Meta Adds",
-    "Sales",
+    
   ],
 
   authors: [
@@ -40,7 +47,7 @@ export const metadata: Metadata = {
     title: "CloodyKit",
     description:
       "Modern web development and AI automation solutions for businesses.",
-    url: "http://localhost:3000",
+    url: "https://cloodykit.com",
     siteName: "CloodyKit",
     locale: "en_US",
     type: "website",
@@ -78,7 +85,7 @@ export default function RootLayout({
           richColors
           closeButton
         />
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

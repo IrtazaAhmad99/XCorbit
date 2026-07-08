@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "http://localhost:3000"; // Replace with your actual domain
+  const baseUrl = "https://cloodykit.com"; // Replace with your actual domain
 
   return [
     {
