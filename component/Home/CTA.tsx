@@ -74,7 +74,7 @@ export default function CTA() {
 
             <div>
               <h3 className="text-4xl font-bold text-cyan-400">
-                4+
+                10+
               </h3>
 
               <p className="mt-2 text-slate-400">
