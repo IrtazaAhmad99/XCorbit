@@ -52,7 +52,7 @@ export default function Hero() {
                     <br />
 
                     <span className="bg-linear-to-r from-cyan-400 via-blue-400 to-purple-500 bg-clip-text text-transparent">
-                        & AI Soultions
+                        & AI Solutions
                     </span>
 
                     <br />
