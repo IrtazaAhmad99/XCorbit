@@ -41,61 +41,180 @@
   
  
 } from "lucide-react";
- 
- 
- 
- 
- export const projects = [
+
+
+
+export const projects = [
   {
+    // ==========================
+    // Basic Card Information
+    // ==========================
     id: 1,
+    slug: "urban-pulse",
     title: "Urban Pulse",
     category: "Full Stack E-Commerce",
     image: "/images/urban.png",
     description:
       "A modern fashion e-commerce platform with authentication, Stripe payments, admin dashboard, and complete order management.",
+
     technologies: [
       "Next.js",
       "Node.js",
       "MongoDB",
       "Stripe",
-      "Tailwind",
+      "Tailwind CSS",
     ],
-    href: "/portfolio",
+
+    href: "/featureProduct/urban-pulse",
+
+    // ==========================
+    // Project Detail Page
+    // ==========================
+
+    details: {
+      overview:
+        "Urban Pulse is a full-stack fashion e-commerce platform designed to deliver a premium online shopping experience. The application enables customers to browse products, securely purchase items using Stripe, manage their accounts, and track orders, while administrators can efficiently manage inventory, customers, and sales from a dedicated dashboard.",
+
+      challenges:
+        "The primary challenge was creating a scalable architecture capable of handling authentication, secure online payments, inventory management, and role-based access without sacrificing performance. Another challenge was building a responsive user experience that feels modern across desktop and mobile devices.",
+
+      process:
+        "The project began with planning the application architecture and user flows before moving into UI/UX design. The frontend was developed using Next.js and Tailwind CSS, while the backend APIs were built with Node.js and MongoDB. Stripe payment integration, authentication, and admin functionality were implemented incrementally, followed by optimization, testing, and deployment.",
+
+      timeline: "12 Weeks",
+
+      img:"/images/urban.png",
+
+      liveUrl: "",
+
+      githubUrl: "",
+
+      features: [
+        "Secure Authentication",
+        "Stripe Payment Integration",
+        "Shopping Cart",
+        "Order Management",
+        "Admin Dashboard",
+        "Inventory Management",
+        "Responsive Design",
+      ],
+    },
   },
 
   {
+    // ==========================
+    // Basic Card Information
+    // ==========================
     id: 2,
+    slug: "foodies",
     title: "Foodies",
     category: "Restaurant Platform",
     image: "/images/foodies.png",
     description:
       "A multi-vendor restaurant platform with customer ordering, restaurant dashboard, online payments, and withdrawal system.",
+
     technologies: [
       "Next.js",
       "Express",
       "MongoDB",
       "Stripe",
     ],
-    href: "/portfolio",
+
+    href: "/featureProduct/foodies",
+
+    // ==========================
+    // Project Detail Page
+    // ==========================
+
+    details: {
+      overview:
+        "Foodies is a multi-vendor restaurant ordering platform that connects customers with restaurants through a seamless digital experience. Customers can browse restaurants, place orders, complete secure payments, and monitor their order history, while restaurant owners manage menus, incoming orders, withdrawals, and business operations from their own dashboard.",
+
+      challenges:
+        "Building a system that supports multiple restaurants, separate user roles, secure authentication, online payments, and real-time order management required careful database design and scalable backend architecture. Maintaining a clean user experience while handling complex business logic was another major challenge.",
+
+      process:
+        "The project started with database planning and role-based authentication. Customer and restaurant dashboards were developed independently, followed by payment integration using Stripe. After implementing menu management, ordering, and withdrawal functionality, extensive testing and performance optimization were completed before deployment.",
+
+      timeline: "10 Weeks",
+
+      img:"/images/foodies.png",
+
+      liveUrl: "",
+
+      githubUrl: "",
+
+      features: [
+        "Customer Dashboard",
+        "Restaurant Dashboard",
+        "Stripe Payments",
+        "Menu Management",
+        "Order Tracking",
+        "Withdrawal System",
+        "Role-Based Authentication",
+      ],
+    },
   },
 
   {
+    // ==========================
+    // Basic Card Information
+    // ==========================
     id: 3,
+    slug: "tax-estimation",
     title: "Tax Estimation",
     category: "Business Automation",
     image: "/images/tax.png",
     description:
-      "A Tax automation system that calculates the tax of a person upon their sale",
+      "A tax automation system that calculates tax based on business sales and financial data.",
+
     technologies: [
-      "NEXt.js",
+      "Next.js",
       "SQL",
-      "Node.jS",
+      "Node.js",
       "REST API",
     ],
-    href: "/services",
+
+    href: "/featureProduct/tax-estimation",
+
+    // ==========================
+    // Project Detail Page
+    // ==========================
+
+    details: {
+      overview:
+        "Tax Estimation is a business automation solution developed to simplify tax calculations by processing sales and financial records automatically. The system minimizes manual calculations, reduces errors, and helps businesses estimate tax liabilities quickly and accurately.",
+
+      challenges:
+        "The biggest challenge was implementing accurate tax calculation logic while ensuring flexibility for different financial scenarios. Another important aspect was creating an interface that presents complex financial information in a simple and understandable manner.",
+
+      process:
+        "Development started with gathering taxation requirements and designing the database structure. The backend calculation engine was implemented first, followed by REST APIs and the frontend dashboard. Finally, testing was performed using multiple financial datasets to validate calculation accuracy.",
+
+      timeline: "6 Weeks",
+
+       img:"/images/tax.png",
+
+      liveUrl: "",
+
+      githubUrl: "",
+
+      features: [
+        "Automated Tax Calculation",
+        "Sales Analysis",
+        "Financial Dashboard",
+        "REST API Integration",
+        "SQL Database",
+        "Responsive Interface",
+      ],
+    },
   },
 ];
 
+ 
+ 
+ 
+ 
 export const badges = [
   {
     icon: Clock3,

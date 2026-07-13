@@ -83,8 +83,10 @@ export default function FeaturedProjects() {
           className="mt-20 grid gap-8 md:grid-cols-2 xl:grid-cols-3"
         >
           {projects.map((project) => (
+           <Link 
+           key={project.id}
+           href={`/featureProduct/${project.slug}`}>
             <motion.div
-              key={project.id}
               variants={cardVariant}
               whileHover={{ y: -10 }}
               transition={{ duration: 0.3 }}
@@ -166,6 +168,7 @@ export default function FeaturedProjects() {
               </div>
 
             </motion.div>
+           </Link>
           ))}
         </motion.div>
         {/* Bottom CTA */}
