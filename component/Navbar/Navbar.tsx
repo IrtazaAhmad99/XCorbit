@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 
 const navLinks = [
@@ -31,26 +32,29 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  
+
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        scrolled
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled
           ? "bg-[#050B18]/80 backdrop-blur-xl border-b border-white/10 shadow-lg"
           : "bg-transparent"
-      }`}
+        }`}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-4 flex items-center justify-between">
         {/* Logo */}
 
         <Link
           href="/"
-          className="flex items-center gap-3 transition-transform duration-300 hover:scale-105"
+          className="flex items-center  transition-transform duration-300 hover:scale-105"
         >
-          <div className="w-10 h-10 rounded-xl bg-linear-to-r from-cyan-400 to-purple-500 flex items-center justify-center text-black font-bold">
-            CK
-          </div>
+          <Image
+            src="/images/favicon.png"
+            alt="CloodyKit"
+            width={58}
+            height={58}
+            priority
+          />
 
           <span className="text-xl font-bold text-white">
             CloodyKit
@@ -90,9 +94,8 @@ const Navbar = () => {
       {/* Mobile Menu */}
 
       <div
-        className={`md:hidden overflow-hidden transition-all duration-300 ${
-          open ? "max-h-125 opacity-100" : "max-h-0 opacity-0"
-        }`}
+        className={`md:hidden overflow-hidden transition-all duration-300 ${open ? "max-h-125 opacity-100" : "max-h-0 opacity-0"
+          }`}
       >
         <div className="border-t border-white/10 bg-[#050B18]/95 backdrop-blur-xl px-6 py-6">
           <div className="flex flex-col gap-5">

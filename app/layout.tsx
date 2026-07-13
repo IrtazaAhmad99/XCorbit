@@ -32,8 +32,11 @@ export const metadata: Metadata = {
     "DashBord",
     "AI Websites",
     "Meta Adds",
-    
+
   ],
+  icons: {
+    icon: "/favicon.png",
+  },
 
   authors: [
     {
