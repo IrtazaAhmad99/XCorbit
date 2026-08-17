@@ -4,27 +4,22 @@ import Link from "next/link";
 import { ArrowRight, Play } from "lucide-react";
 import { motion } from "framer-motion";
 import { fadeInUp, staggerContainer, cardVariant, } from "../../utils/animations";
+import ParticleBackground from "../Particle/ParticleBackgroung";
 
 
 export default function Hero() {
 
     return (
 
-        <section id="#hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <section id="#hero" className="relative min-h-screen flex items-center justify-center overflow-hidden ">
 
-       
-            <div
-                className="absolute inset-0 bg-cover bg-center"
-                style={{ backgroundImage: "url('/images/hero.jpg')" }}
-            />
-
-            {/* Dark Overlay */}
 
             <div className="absolute inset-0 bg-[#050B18]/80" />
 
-            {/* Glow Effects */}
-
             <div className="absolute top-20 left-1/2-translate-x-1/2 w-125 h-125 bg-cyan-500/20 blur-[120px] rounded-full" />
+
+            
+            <ParticleBackground/>
 
             <div className="relative z-10 max-w-5xl mx-auto mt-12 px-6 text-center pt-20">
 

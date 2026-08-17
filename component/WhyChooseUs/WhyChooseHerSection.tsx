@@ -13,7 +13,7 @@ import {
 
 export default function Hero() {
   return (
-    <section className="relative  bg-[#030712] overflow-hidden pt-40 pb-28">
+    <section className="relative overflow-hidden pt-40 pb-28">
       {/* Background Glow */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute left-1/2 top-32 h-105 w-105 -translate-x-1/2 rounded-full bg-cyan-500/10 blur-[130px]" />

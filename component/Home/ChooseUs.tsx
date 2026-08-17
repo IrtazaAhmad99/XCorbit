@@ -12,7 +12,7 @@ export default function WhyChooseUs() {
   return (
     <section
       id="chooseus"
-      className="relative overflow-hidden bg-[#060B17] py-28"
+      className="relative overflow-hidden py-28"
     >
       {/* Background Glow */}
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_right,rgba(6,182,212,0.12),transparent_65%)]" />

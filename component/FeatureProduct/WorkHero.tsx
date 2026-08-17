@@ -24,7 +24,7 @@ export default function FeaturedProjects() {
   return (
     <section
       id="work"
-      className="relative overflow-hidden bg-[#030712] py-24 sm:py-32"
+      className="relative overflow-hidden py-24 sm:py-32"
     >
       {/* Background Glow */}
       <div className="absolute inset-0 -z-10">

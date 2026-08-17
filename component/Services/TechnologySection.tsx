@@ -14,7 +14,8 @@ import { techStacks } from "../../data/array";
 
 export default function TechnologiesSection() {
   return (
-    <section className="bg-[#030712] py-24">
+    <section className=" relative overflow-hidden bg-[#030712] py-24">
+      
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <motion.div
           variants={fadeInUp}

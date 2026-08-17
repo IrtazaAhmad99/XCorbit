@@ -85,7 +85,7 @@ export default function ContactForm() {
   return (
     <section
       id="contact-form"
-      className="relative bg-[#030712] py-28 overflow-hidden"
+      className="relative py-28 overflow-hidden"
     >
       {/* Background Glow */}
       <div className="absolute inset-0 -z-10">

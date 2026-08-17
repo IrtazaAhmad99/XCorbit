@@ -3,6 +3,7 @@ import "./globals.css";
 import { Toaster } from "sonner";
 import Footer from "../component/Home/Footer";
 import type { Metadata } from "next";
+import ParticleBackground from "@/component/Particle/ParticleBackgroung";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://cloodykit.com"), // Replace after buying your domain
@@ -80,7 +81,8 @@ export default function RootLayout({
       lang="en"
       className="h-full"
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col bg-[#060B17]">
+        <ParticleBackground/>
         <Navbar />
         {children}
         <Toaster

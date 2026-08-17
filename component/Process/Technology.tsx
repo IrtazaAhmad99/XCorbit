@@ -12,7 +12,7 @@ import {technologies} from "../../data/array"
 
 export default function Technologies() {
   return (
-    <section className="relative py-32 overflow-hidden">
+    <section className="relative overflow-hidden bg-[#030712] py-32 ">
       {/* Background Glow */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute left-1/2 top-1/2 h-150 w-150 -translate-x-1/2 -translate-y-1/2 rounded-full bg-violet-600/10 blur-[160px]" />

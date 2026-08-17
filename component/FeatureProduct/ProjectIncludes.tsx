@@ -8,7 +8,7 @@ import {includes} from "../../data/array"
 
 export default function ProjectIncludes() {
   return (
-    <section className="relative bg-[#030712] py-24 px-6 overflow-hidden">
+    <section className="relative py-24 px-6 overflow-hidden">
       {/* Background Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-137.5 h-137.5 bg-cyan-500/10 blur-[170px] rounded-full pointer-events-none" />
 

@@ -12,7 +12,7 @@ import {features} from "../../data/array"
 
 export default function WhyProcess() {
   return (
-    <section className="relative py-28">
+    <section className="relative overflow-hidden bg-[#030712] py-28">
       {/* Background Glow */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <div className="absolute left-0 top-20 h-80 w-80 rounded-full bg-violet-600/10 blur-[130px]" />
