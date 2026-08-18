@@ -894,7 +894,64 @@ export const serve = [
 ];
 
 
+// for OurMission.tsx 
+export const insights = [
+    {
+        category: "Web Development",
+        title: "Why Does Your Local Business Need a Professional Website in 2026?",
+        description:
+            "A professional website is often the first interaction customers have with a business. For local businesses in the USA, UK, Canada, Australia, and Europe, a fast, mobile-friendly website can strengthen online presence, build trust, improve local search visibility, and turn more visitors into customers.",
+    },
 
+    {
+        category: "AI Automation",
+        title: "How Can AI Automation Help Small Businesses Save Time and Grow?",
+        description:
+            "AI automation can help small businesses reduce repetitive work, respond to customers faster, capture leads, and streamline everyday operations. From local service businesses in the USA and Canada to growing companies in the UK and Australia, practical AI solutions can create more efficient workflows and support business growth.",
+    },
+
+    {
+        category: "Local SEO",
+        title: "How Can Local Businesses Get More Customers From Google?",
+        description:
+            "Local SEO helps businesses become more visible when nearby customers search for their services online. A strong Google presence, optimized website, relevant content, and clear business information can help businesses in cities across the USA, UK, Canada, Australia, and Europe attract customers who are actively looking for what they offer.",
+    },
+
+    {
+        category: "Business Growth",
+        title: "Is Your Online Presence Helping Your Business Grow?",
+        description:
+            "Your website, branding, search visibility, and customer experience all influence how people perceive your business online. Whether you run a service business in London, Toronto, Sydney, New York, or another growing market, building a stronger online presence can help turn attention into trust and trust into customers.",
+    },
+
+    {
+        category: "AI Solutions",
+        title: "What Business Tasks Should You Automate With AI?",
+        description:
+            "Not every business process needs automation, but repetitive tasks such as lead capture, customer inquiries, appointment handling, follow-ups, and internal workflows can often be improved with AI. The right automation strategy helps businesses spend less time on routine work and more time serving customers and growing revenue.",
+    },
+
+    {
+        category: "Web Development",
+        title: "What Makes a Business Website Actually Convert Visitors Into Customers?",
+        description:
+            "A business website should do more than look modern. Clear messaging, fast performance, mobile responsiveness, strong calls to action, simple navigation, and trust-building content can help convert visitors into leads. These fundamentals are especially important for local businesses competing for customers online.",
+    },
+
+    {
+        category: "Digital Growth",
+        title: "Why Are Customers Searching Online Before Choosing a Local Business?",
+        description:
+            "Customers increasingly research businesses online before making a decision. Your website, Google visibility, reviews, branding, and online experience can influence whether someone chooses your business or a competitor. A strong digital presence helps local businesses compete in markets such as the USA, UK, Canada, Australia, Germany, and beyond.",
+    },
+
+    {
+        category: "Founder Insights",
+        title: "How Should a Business Decide Which Technology It Actually Needs?",
+        description:
+            "More technology does not always mean a better business. Companies should first understand their goals, identify the problems slowing them down, and then choose the right combination of web development, AI automation, digital marketing, and business tools. The goal is not to use more technology, but to use the right technology.",
+    },
+];
 
 
 
