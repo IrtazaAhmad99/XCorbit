@@ -8,10 +8,10 @@ import Image from "next/image";
 
 const navLinks = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/service" },
-  { name: "Our Work", href: "/featureProduct" },
+  { name: "Services", href: "/services" },
+  { name: "Our Work", href: "/work" },
   { name: "Our Process", href: "/process" },
-  { name: "Why Choose Us", href: "/chooseus" },
+  { name: "Why CloodyKit", href: "/why-cloodykit" },
   { name: "FAQ", href: "/#faq" },
   { name: "Founder", href: "/founder" },
   { name: "Contact", href: "/contact" },

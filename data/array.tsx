@@ -65,7 +65,7 @@ export const projects = [
       "Tailwind CSS",
     ],
 
-    href: "/featureProduct/urban-pulse",
+    href: "/work/urban-pulse",
 
     // ==========================
     // Project Detail Page
@@ -120,7 +120,7 @@ export const projects = [
       "Stripe",
     ],
 
-    href: "/featureProduct/foodies",
+    href: "/work/foodies",
 
     // ==========================
     // Project Detail Page
@@ -175,7 +175,7 @@ export const projects = [
       "REST API",
     ],
 
-    href: "/featureProduct/tax-estimation",
+    href: "/work/tax-estimation",
 
     // ==========================
     // Project Detail Page

@@ -85,7 +85,7 @@ export default function FeaturedProjects() {
           {projects.map((project) => (
            <Link 
            key={project.id}
-           href={`/featureProduct/${project.slug}`}>
+           href={`/work/${project.slug}`}>
             <motion.div
               variants={cardVariant}
               whileHover={{ y: -10 }}

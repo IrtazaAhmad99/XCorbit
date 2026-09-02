@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://cloodykit.com"; // Replace with your actual domain
+  const baseUrl = "https://www.cloodykit.com"; // Replace with your actual domain
 
   return [
     {
@@ -11,13 +11,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: `${baseUrl}/service`,
+      url: `${baseUrl}/services`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/featureProduct`,
+      url: `${baseUrl}/work`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.9,
@@ -35,7 +35,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/chooseus`,
+      url: `${baseUrl}/why-cloodykit`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,

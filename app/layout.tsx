@@ -6,7 +6,7 @@ import type { Metadata } from "next";
 import ParticleBackground from "@/component/Particle/ParticleBackgroung";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://cloodykit.com"), // Replace after buying your domain
+  metadataBase: new URL("https://www.cloodykit.com"), // Replace after buying your domain
 
   title: {
     default: "CloodyKit | AI Automation & Web Development Agency",
@@ -16,25 +16,10 @@ export const metadata: Metadata = {
   description:
     "CloodyKit helps businesses grow with modern websites, AI automation, and digital solutions designed for performance and scalability.",
 
-  keywords: [
-    "AI Automation",
-    "Web Development",
-    "Next.js",
-    "React",
-    "Business Websites",
-    "Software Development",
-    "AI Chatbots",
-    "Custom Web Applications",
-    "Digital Solutions",
-    "SEO",
-    "Landing Pages",
-    "Business Automation",
-    "CloodyKit",
-    "DashBord",
-    "AI Websites",
-    "Meta Adds",
+  alternates: {
+    canonical: "/",
+  },
 
-  ],
   icons: {
     icon: "/favicon.ico",
   },
@@ -51,7 +36,7 @@ export const metadata: Metadata = {
     title: "CloodyKit",
     description:
       "Modern web development and AI automation solutions for businesses.",
-    url: "https://cloodykit.com",
+    url: "https://www.cloodykit.com/",
     siteName: "CloodyKit",
     locale: "en_US",
     type: "website",
@@ -82,7 +67,7 @@ export default function RootLayout({
       className="h-full"
     >
       <body className="min-h-full flex flex-col bg-[#060B17]">
-        <ParticleBackground/>
+        <ParticleBackground />
         <Navbar />
         {children}
         <Toaster
