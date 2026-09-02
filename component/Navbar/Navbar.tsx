@@ -7,14 +7,14 @@ import Image from "next/image";
 
 
 const navLinks = [
-  { name: "Home", href: "/#hero" },
-  { name: "Services", href: "/#services" },
-  { name: "Our Work", href: "/#projects" },
-  { name: "Our Process", href: "/#process" },
-  { name: "Why Choose Us", href: "/#chooseus" },
+  { name: "Home", href: "/" },
+  { name: "Services", href: "/service" },
+  { name: "Our Work", href: "/featureProduct" },
+  { name: "Our Process", href: "/process" },
+  { name: "Why Choose Us", href: "/chooseus" },
   { name: "FAQ", href: "/#faq" },
   { name: "Founder", href: "/founder" },
-  { name: "Contact", href: "/#contact" },
+  { name: "Contact", href: "/contact" },
 ];
 
 const Navbar = () => {
@@ -64,7 +64,7 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
 
-        <div className="hidden md:flex items-center gap-10">
+        <div className="hidden xl:flex items-center gap-8">
           {navLinks.map((link) => (
             <Link
               key={link.name}
@@ -78,7 +78,7 @@ const Navbar = () => {
 
         {/* CTA */}
 
-        <Link href="/contact" className="hidden md:block rounded-xl bg-linear-to-r from-cyan-400 to-purple-500 px-6 py-3 font-semibold text-black transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
+        <Link href="/contact" className="hidden xl:block rounded-xl bg-linear-to-r from-cyan-400 to-purple-500 px-6 py-3 font-semibold text-black transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
           Book a Consultation
         </Link>
 
@@ -86,7 +86,7 @@ const Navbar = () => {
 
         <button
           onClick={() => setOpen(!open)}
-          className="md:hidden rounded-lg p-2 text-white transition hover:bg-white/10"
+          className="xl:hidden rounded-lg p-2 text-white transition hover:bg-white/10"
         >
           {open ? <X size={28} /> : <Menu size={28} />}
         </button>
@@ -95,7 +95,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
 
       <div
-        className={`md:hidden overflow-hidden transition-all duration-300 ${open ? "max-h-125 opacity-100" : "max-h-0 opacity-0"
+        className={`xl:hidden overflow-hidden transition-all duration-300 ${open ? "max-h-125 opacity-100" : "max-h-0 opacity-0"
           }`}
       >
         <div className="border-t border-white/10 bg-[#050B18]/95 backdrop-blur-xl px-6 py-6">

@@ -80,6 +80,7 @@ const FounderHerosection = () => {
                                             src={founderImages[currentImage]}
                                             alt={`Irtaza Ahmad - Founder of CloodyKit`}
                                             fill
+                                            sizes="(max-width: 768px) 288px, 320px"
                                             className="object-cover"
                                             priority={currentImage === 0}
                                             loading={currentImage === 0 ? "eager" : "lazy"}
