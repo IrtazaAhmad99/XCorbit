@@ -68,7 +68,7 @@ export default function Hero() {
           />
             
           <Link
-            href="/featureProduct"
+            href="/work"
             className="group inline-flex items-center justify-center rounded-xl border border-white/10 px-7 py-4 font-medium text-white transition-all duration-300 hover:border-cyan-500 hover:bg-cyan-500/10"
           >
             View Our Work

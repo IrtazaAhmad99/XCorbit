@@ -37,7 +37,7 @@ export default function FeaturedProjects() {
           >
             <span className="mr-2 h-2 w-2 rounded-full bg-cyan-400" />
 
-            <PrimaryButton href="/featureProduct" text="Explore Our Work" />
+            <PrimaryButton href="/work" text="Explore Our Work" />
           </motion.div>
 
           <motion.h2

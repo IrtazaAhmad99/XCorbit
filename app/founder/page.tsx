@@ -12,14 +12,14 @@ export const metadata: Metadata = {
         "Discover the story behind CloodyKit, our mission to help businesses grow through web development, AI automation, and digital solutions, and the vision driving our journey forward.",
 
     alternates: {
-        canonical: "https://cloodykit.com/founder",
+        canonical: "/founder",
     },
 
     openGraph: {
         title: "CloodyKit Founder | Our Story, Mission & Vision",
         description:
             "Learn why CloodyKit was founded, what we believe, and how we use web development, AI automation, and digital solutions to help businesses grow.",
-        url: "https://cloodykit.com/founder",
+        url: "https://www.cloodykit.com/founder",
         siteName: "CloodyKit",
         type: "website",
     },

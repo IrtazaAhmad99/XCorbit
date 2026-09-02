@@ -80,7 +80,7 @@ export default function Hero() {
                     </Link>
 
 
-                    <Link href="/featureProduct"
+                    <Link href="/work"
                         className="flex items-center justify-center gap-2 px-7 py-4 rounded-xl border border-white/10 bg-white/5 text-white hover:bg-white/10 transition">
 
                         <Play size={18} />
