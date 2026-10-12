@@ -58,7 +58,7 @@ const Navbar = () => {
           />
 
           <span className="text-xl font-bold text-white">
-            CloodyKit
+            Cloody<span className="text-cyan-400">Kit</span>
           </span>
         </Link>
 

@@ -28,7 +28,7 @@ export default function Footer() {
           {/* Company */}
           <div>
             <h2 className="text-3xl font-bold text-white">
-              CloodyKit<span className="text-cyan-400">Soft</span>
+              Cloody<span className="text-cyan-400">Kit</span>
             </h2>
 
             <p className="mt-6 leading-8 text-slate-400">
@@ -100,8 +100,8 @@ export default function Footer() {
           </p>
 
           <div className="flex gap-8 text-sm text-slate-500">
-            <Link href="#">Privacy Policy</Link>
-            <Link href="#">Terms of Service</Link>
+            <Link href="/privacy-policy">Privacy Policy</Link>
+            <Link href="/terms-of-service">Terms of Service</Link>
           </div>
         </div>
       </div>
