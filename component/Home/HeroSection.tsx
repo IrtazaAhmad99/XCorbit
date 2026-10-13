@@ -18,8 +18,8 @@ export default function Hero() {
 
             <div className="absolute top-20 left-1/2-translate-x-1/2 w-125 h-125 bg-cyan-500/20 blur-[120px] rounded-full" />
 
-            
-            <ParticleBackground/>
+
+            <ParticleBackground />
 
             <div className="relative z-10 max-w-5xl mx-auto mt-12 px-6 text-center pt-20">
 
@@ -67,14 +67,14 @@ export default function Hero() {
 
 
 
-            
+
                 {/* Project Path Selection */}
                 <motion.div
                     variants={staggerContainer}
                     initial="hidden"
                     whileInView="show"
                     viewport={{ once: true, amount: 0.3 }}
-                    className="mt-10 grid grid-cols-2 gap-3 sm:gap-5 max-w-4xl mx-auto"
+                    className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 max-w-4xl mx-auto"
                 >
                     {/* Start a Project */}
                     <motion.div
