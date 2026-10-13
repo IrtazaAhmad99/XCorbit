@@ -66,29 +66,68 @@ export default function Hero() {
                 </motion.p>
 
 
+
+            
+                {/* Project Path Selection */}
                 <motion.div
-                    variants={fadeInUp}
+                    variants={staggerContainer}
                     initial="hidden"
                     whileInView="show"
                     viewport={{ once: true, amount: 0.3 }}
-                    className="mt-10 flex flex-col sm:flex-row justify-center gap-4" >
-                    <Link href="/contact"
-                        className="flex items-center justify-center gap-2 px-7 py-4 rounded-xl bg-linear-to-r from-cyan-400 to-purple-500 text-black font-semibold hover:scale-105 transition">
-                        Start a Project
-                        <ArrowRight size={18} />
+                    className="mt-10 grid grid-cols-2 gap-3 sm:gap-5 max-w-4xl mx-auto"
+                >
+                    {/* Start a Project */}
+                    <motion.div
+                        variants={cardVariant}
+                        className="group flex flex-col items-start text-left p-3 sm:p-6 md:p-8 rounded-2xl border border-cyan-400/20 bg-white/3 backdrop-blur-sm transition-all duration-300 hover:border-cyan-400/50 hover:bg-cyan-400/6 hover:-translate-y-1" >
+                        <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-cyan-400/10 text-cyan-300">
+                            <ArrowRight size={24} />
+                        </div>
 
-                    </Link>
+                        <h2 className="text-sm sm:text-lg md:text-2xl font-semibold text-white">
+                            I know what I want to build
+                        </h2>
 
+                        <p className="mt-3 flex-1 text-sm sm:text-base leading-7 text-gray-400">
+                            Have a clear idea or project in mind? Tell us what
+                            you need, and let&apos;s bring it to life.
+                        </p>
 
-                    <Link href="/work"
-                        className="flex items-center justify-center gap-2 px-7 py-4 rounded-xl border border-white/10 bg-white/5 text-white hover:bg-white/10 transition">
+                        <Link
+                            href="/contact"
+                            className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-linear-to-r from-cyan-400 to-purple-500 px-6 py-3.5 font-semibold text-black transition hover:scale-[1.02]"
+                        >
+                            Start a Project
+                            <ArrowRight size={18} />
+                        </Link>
+                    </motion.div>
 
-                        <Play size={18} />
+                    {/* Book a Consultation */}
+                    <motion.div variants={cardVariant}
+                        className="group flex flex-col items-start text-left p-3 sm:p-6 md:p-8 rounded-2xl border border-white/10 bg-white/3 backdrop-blur-sm transition-all duration-300 hover:border-purple-400/40 hover:bg-purple-400/5 hover:-translate-y-1" >
+                        <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-purple-400/10 text-purple-300">
+                            <Play size={24} />
+                        </div>
 
-                        Explore Our Work
+                        <h2 className="text-sm sm:text-lg md:text-2xl font-semibold text-white">
+                            I want to discuss my idea first
+                        </h2>
 
-                    </Link>
+                        <p className="mt-3 flex-1 text-sm sm:text-base leading-7 text-gray-400">
+                            Not sure where to start? Let&apos;s discuss your
+                            goals and explore the right solution for your business.
+                        </p>
+
+                        <Link
+                            href="/booking"
+                            className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-white/15 bg-white/5 px-6 py-3.5 font-semibold text-white transition hover:border-purple-400/50 hover:bg-white/10"
+                        >
+                            Book Consultation
+                            <ArrowRight size={18} />
+                        </Link>
+                    </motion.div>
                 </motion.div>
+
 
 
                 <motion.div

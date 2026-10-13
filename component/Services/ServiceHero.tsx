@@ -74,10 +74,10 @@ export default function ServicesHero() {
             className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row"
           >
             <Link
-              href="/contact"
+              href="/booking"
               className="inline-flex items-center gap-2 rounded-xl bg-cyan-500 px-7 py-4 font-semibold text-black transition hover:scale-105 hover:bg-cyan-400"
             >
-              Start Your Project
+              Start Your Consultation
               <ArrowRight size={18} />
             </Link>
 

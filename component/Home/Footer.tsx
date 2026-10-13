@@ -84,8 +84,8 @@ export default function Footer() {
               </div>
             </div>
 
-            <Link href="/contact" className="group mt-8 inline-flex items-center gap-2 rounded-full bg-cyan-500 px-6 py-3 font-semibold text-black transition hover:bg-cyan-400">
-              Start Your Project
+            <Link href="/booking" className="group mt-8 inline-flex items-center gap-2 rounded-full bg-cyan-500 px-6 py-3 font-semibold text-black transition hover:bg-cyan-400">
+              Book Your Consultation
 
               <ArrowUpRight className="transition group-hover:translate-x-1 group-hover:-translate-y-1" />
             </Link>
