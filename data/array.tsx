@@ -39,6 +39,7 @@
   Check,
   ArrowUpRight,
   
+  
  
 } from "lucide-react";
 
@@ -347,13 +348,13 @@ export const services = [
     title: "Web Development",
     icon: Globe,
     color: "from-cyan-500 to-blue-500",
+    href: "/services/web-development",
     description:
       "Custom websites and web applications built for speed, scalability, and business growth.",
 
     features: [
       "Business Websites",
       "Landing Pages",
-      "E-Commerce Stores",
       "Custom Dashboards",
       "Full Stack Applications",
     ],
@@ -363,50 +364,53 @@ export const services = [
     title: "AI Automation",
     icon: Bot,
     color: "from-violet-500 to-fuchsia-500",
+     href: "/services/ai-automation",
     description:
       "Reduce manual work using AI-powered workflows, assistants, and automation systems.",
 
     features: [
       "AI Chatbots",
       "Workflow Automation",
-      "Customer Support AI",
       "Lead Qualification",
       "AI Agents",
     ],
   },
 
   {
-    title: "UI / UX Design",
+    title: "E-Commerce",
     icon: Palette,
     color: "from-pink-500 to-orange-500",
+     href: "/services/e-commerce",
     description:
       "Modern interfaces focused on user experience, engagement, and conversion.",
 
     features: [
-      "Responsive Design",
-      "Wireframing",
-      "Landing Pages",
+      "Store Design",
+      "Integrations",
       "Interactive Prototypes",
       "Design Systems",
     ],
   },
 
   {
-    title: "SEO & Performance",
+    title: "Business Growth",
     icon: Search,
     color: "from-green-500 to-emerald-500",
+     href: "/services/business-growth",
     description:
       "Optimize your website for better rankings, lightning-fast loading, and improved visibility.",
 
     features: [
+      "Digital Marketing",
       "Technical SEO",
-      "Performance Optimization",
-      "Core Web Vitals",
       "Accessibility",
       "Analytics Setup",
     ],
   },
 ];
+
+
+
 
 //for serviceHero componsneet
 export const stats = [
@@ -861,34 +865,49 @@ export const serve = [
   {
     icon: Code2,
     title: "Web Development",
+    href: "/services/web-development",
     description:
-      "Modern, fast, and scalable websites and web applications built using the latest technologies.",
+      "Custom, responsive websites for local service businesses, built to explain what you offer and turn visitors into enquiries.",
     features: [
       "Business Websites",
-      "E-Commerce Stores",
       "Custom Web Applications",
+      "Booking & Lead Forms",
     ],
   },
   {
     icon: Bot,
     title: "AI Automation",
+    href: "/services/ai-automation",
     description:
-      "Automate repetitive work and improve productivity with AI-powered solutions tailored for your business.",
+      "AI chatbots, lead qualification, and workflow automation that handle repetitive work and customer enquiries, with human handoffs when needed.",
     features: [
-      "AI Agents",
+      "AI Chatbots & Agents",
+      "Lead Qualification",
       "Workflow Automation",
-      "AI Integrations",
     ],
   },
   {
     icon: TrendingUp,
-    title: "Digital Growth",
+    title: "Business Growth",
+    href: "/services/business-growth",
     description:
-      "Helping businesses establish a stronger online presence and scale with confidence.",
+      "SEO, website content, and conversion improvements that help the right customers find you and take the next step.",
     features: [
+      "Digital Marketing",
       "SEO Optimization",
-      "Sales Strategy",
-      "Meta Adds",
+      "Lead Generation Strategy",
+    ],
+  },
+  {
+    icon: ShoppingCart,
+    title: "E-Commerce",
+    href: "/services/e-commerce",
+    description:
+      "Online stores built to showcase your products, simplify checkout, and make it easier for customers to buy.",
+    features: [
+      "Online Store Development",
+      "Product & Checkout Pages",
+      "Payment Integration",
     ],
   },
 ];

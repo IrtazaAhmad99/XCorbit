@@ -2,9 +2,9 @@ import React from 'react'
 import type { Metadata } from "next";
 import ServiceHero from "../../component/Services/ServiceHero"
 import ServiceCard from "../../component/Services/ServiceCard"
-import Process from "../../component/Services/Process"
 import TechnologySection from "../../component/Services/TechnologySection"
 import Choose from "../../component/Services/Choose"
+import ServiceLocation from '../../component/Services/ServiceLocation';
 
 
 export const metadata: Metadata = {
@@ -30,9 +30,9 @@ const page = () => {
     <>
     <ServiceHero/>
     <ServiceCard/>
-    <Process/>
     <TechnologySection/>
     <Choose/>
+    <ServiceLocation/>
     </>
   )
 }

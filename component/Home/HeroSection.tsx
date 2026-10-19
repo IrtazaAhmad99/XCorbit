@@ -32,7 +32,7 @@ export default function Hero() {
                     viewport={{ once: true, amount: 0.3 }}
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-cyan-500/20 bg-cyan-500/10 text-sm text-gray-300 mb-8">
                     <span className="h-2 w-2 rounded-full bg-cyan-400" />
-                    AI • Web • Digital Solutions
+                    Web Development • AI Automation •  Digital Marketing •  E-Commerce
                 </motion.div>
 
 
@@ -42,12 +42,12 @@ export default function Hero() {
                     whileInView="show"
                     viewport={{ once: true, amount: 0.3 }}
                     className="text-3xl md:text-3xl lg:text-6xl font-bold tracking-tight leading-tight text-white" >
-                    We Build Modern Websites
+                    Web Development & AI Automation
 
                     <br />
 
                     <span className="bg-linear-to-r from-cyan-400 via-blue-400 to-purple-500 bg-clip-text text-transparent">
-                        & AI Solutions
+                        for Businesses
                     </span>
 
                     <br />
@@ -61,8 +61,36 @@ export default function Hero() {
                     whileInView="show"
                     viewport={{ once: true, amount: 0.3 }}
                     className="mt-8 max-w-3xl mx-auto text-lg leading-8 text-gray-300">
-                    We help businesses transform ideas into powerful websites,
-                    AI solutions, and digital experiences that drive growth.
+                    CloodyKit provides{" "}
+                    <Link
+                        href="/services/web-development"
+                        className="text-cyan-300 underline-offset-4 hover:underline"
+                    >
+                        web development
+                    </Link>
+                    ,{" "}
+                    <Link
+                        href="/services/ai-automation"
+                        className="text-cyan-300 underline-offset-4 hover:underline"
+                    >
+                        AI automation
+                    </Link>
+                    ,
+                    <Link
+                        href="/services/business-growth"
+                        className="text-cyan-300 underline-offset-4 hover:underline"
+                    >
+                        Business Growth
+                    </Link>
+                    , and{" "}
+                    <Link
+                        href="/services/e-commerce"
+                        className="text-cyan-300 underline-offset-4 hover:underline"
+                    >
+                        E-Commerce
+                    </Link>{" "}
+                    for HVAC, roofing, plumbing, clinics, law firms, gyms, and
+                    restaurants, stores, clothings stores and Brands in the USA, UK, Canada, and Australia.
                 </motion.p>
 
 
@@ -89,8 +117,9 @@ export default function Hero() {
                         </h2>
 
                         <p className="mt-3 flex-1 text-sm sm:text-base leading-7 text-gray-400">
-                            Have a clear idea or project in mind? Tell us what
-                            you need, and let&apos;s bring it to life.
+                            Have a clear idea for a new website, online store,
+                            or AI automation? Tell us what you need, and
+                            let&apos;s bring it to life.
                         </p>
 
                         <Link
@@ -115,7 +144,9 @@ export default function Hero() {
 
                         <p className="mt-3 flex-1 text-sm sm:text-base leading-7 text-gray-400">
                             Not sure where to start? Let&apos;s discuss your
-                            goals and explore the right solution for your business.
+                            goals and explore whether a new website, AI
+                            automation, or SEO is the right fit for your
+                            business.
                         </p>
 
                         <Link
@@ -180,5 +211,4 @@ export default function Hero() {
 
 
     )
-
 }

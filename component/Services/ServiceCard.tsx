@@ -107,7 +107,7 @@ export default function ServicesGrid() {
 
                 <Link
                   href="/contact"
-                  className="mt-10 inline-flex items-center gap-2 font-semibold text-cyan-400 transition group-hover:gap-3"
+                  className="mt-10 inline-flex items-center gap-2 border-2 rounded-2xl border-cyan-400 px-2 py-2 font-semibold text-cyan-400 transition group-hover:gap-3"
                 >
                   Let's Build This
                   <ArrowUpRight size={18} />

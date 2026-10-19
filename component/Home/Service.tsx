@@ -69,7 +69,7 @@ export default function Services() {
 
         {/* Cards */}
         <motion.div
-          className="grid gap-8 lg:grid-cols-3"
+          className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4"
           variants={fadeInUp}
           initial="hidden"
           whileInView="show"
@@ -92,10 +92,10 @@ export default function Services() {
                   stiffness: 260,
                   damping: 18,
                 }}
-                className="group relative rounded-3xl border border-slate-800 bg-[#111827] p-9 shadow-2xl transition-all duration-300 hover:border-cyan-500/40 hover:shadow-cyan-700" >
+                className="group relative min-w-0 rounded-3xl border border-slate-800 bg-[#111827] p-5 sm:p-6 xl:p-7 2xl:p-8 shadow-2xl transition-all duration-300 hover:border-cyan-500/40 hover:shadow-cyan-700" >
                 {/* Top */}
-
-                <div className="mb-10 flex items-center justify-between">
+                  <Link href={service.href}>
+                  <div className="mb-10 flex items-center justify-between">
                   <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-[#1B2A4A]">
                     <Icon className="h-8 w-8 text-cyan-400" />
                   </div>
@@ -103,11 +103,11 @@ export default function Services() {
                 </div>
 
                 {/* Content */}
-                <h3 className="mb-4 text-3xl font-bold text-white">
+                <h3 className="mb-4 text-xl font-bold text-white sm:text-2xl 2xl:text-3x">
                   {service.title}
                 </h3>
 
-                <p className="mb-8 leading-8 text-slate-400">
+                <p className="mb-8 text-sm leading-7 text-slate-400 sm:text-base">
                   {service.description}
                 </p>
 
@@ -118,14 +118,17 @@ export default function Services() {
                   {service.features.map((feature) => (
                     <li
                       key={feature}
-                      className="flex items-center gap-3 text-white"
+                      className="flex items-start gap-3 text-sm text-white sm:text-base"
                     >
-                      <Check className="h-5 w-5 text-cyan-400" />
+                      <Check className="mt-1 h-5 w-5 shrink-0 text-cyan-400" />
                       <span>{feature}</span>
                     </li>
                   ))}
                 </ul>
 
+                  
+                  </Link>
+                
 
               </motion.div>
 
