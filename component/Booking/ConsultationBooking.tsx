@@ -474,9 +474,6 @@ export default function ConsultationBooking() {
                     </div>
                   )}
 
-                  <p className="mt-5 text-xs text-white/40">
-                    Times are shown in Pakistan Standard Time (PKT, UTC+5).
-                  </p>
                 </div>
 
                 <div className="p-5 sm:p-8">
